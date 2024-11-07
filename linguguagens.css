@@ -1,0 +1,23 @@
+#linguagens{
+    position: relative;
+    top: 120px;
+    left: 55px;
+    
+}
+
+.logos{
+    width: 70px;
+    height: 70px;
+}
+
+h2{
+    font-family: 'aptly';
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.projetos{
+    position: relative;
+    top: 100px;
+}

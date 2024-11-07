@@ -1,0 +1,526 @@
+@font-face {
+    font-family: 'aptly';
+    src: url(fonnts.com-Aptly_Italic.otf);
+}
+
+@font-face {
+    font-family: 'museo';
+    src: url(MuseoSans_500.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.corpo {
+    background-color: #121212;
+}
+
+.conteinerp {
+    height: 700px;
+}
+
+#entrada {
+    color: #f1f1f1;
+    margin-right: 570px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+#h11 {
+    font-size: 80px;
+    font-family: 'aptly';
+    text-transform: uppercase;
+}
+
+#p1 {
+    font-size: 20px;
+    font-family: 'museo';
+    color: #989898;
+}
+
+#frescura {
+    font-size: 15px;
+    font-family: 'museo';
+    color: #50717b;
+}
+
+#button1 {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: 55px;
+    font-family: 'aptly';
+    cursor: pointer;
+}
+
+#button1:hover {
+    background: #50717b;
+    box-shadow: 0 0 30px 5px#8ecccc;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#button1:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+#button1::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+#button1:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+#button2 {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: 55px;
+    margin-right: 20px;
+    font-family: 'aptly';
+    cursor: pointer;
+}
+
+#button2:hover {
+    background: #50717b;
+    box-shadow: 0 0 30px 5px#8ecccc;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#button2:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+#button2::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+#button2:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+#button3 {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: #f1f2eb;
+    color: #121212;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: 55px;
+    margin-right: 20px;
+    font-family: 'aptly';
+    cursor: pointer;
+}
+
+#botaos {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    left: 980px;
+    top: 40px;
+
+}
+
+#logo {
+    width: 120px;
+    background: transparent;
+    position: fixed;
+    left: 70px;
+}
+
+
+.redessociais {
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    position: relative;
+    top: 450px;
+    left: 70px;
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #50717b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+
+/* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+}
+
+/* twitter*/
+.containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 0.3s;
+}
+
+/* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+}
+
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: green;
+    transition-duration: 0.3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+.cube {
+    top: 10px;
+    left: 400px;
+    margin: 200px auto 0;
+    width: 200px;
+    height: 200Px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 3s infinite cubic-bezier(0.16, 0.61, 0.49, 0.91);
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #8ecccc;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #8ecccc;
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(50px);
+    animation: shift-top 3s infinite ease-out;
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(50px);
+    animation: shift-bottom 3s infinite ease-out;
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(50px);
+    animation: shift-right 3s infinite ease-out;
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(50px);
+    animation: shift-left 3s infinite ease-out;
+}
+
+.front {
+    transform: translateZ(50px);
+    animation: shift-front 3s infinite ease-out;
+}
+
+.back {
+    transform: rotateY(-180deg) translateZ(50px);
+    animation: shift-back 3s infinite ease-out;
+}
+
+@keyframes spin {
+    33% {
+        transform: rotateX(-36deg) rotateY(-405deg);
+    }
+
+    100% {
+        transform: rotateX(-36deg) rotateY(-405deg);
+    }
+}
+
+@keyframes shift-top {
+    33% {
+        transform: rotateX(90deg) translateZ(50px);
+    }
+
+    50% {
+        transform: rotateX(90deg) translateZ(100px);
+    }
+
+    60% {
+        transform: rotateX(90deg) translateZ(100px);
+    }
+
+    75% {
+        transform: rotateX(90deg) translateZ(50px);
+    }
+}
+
+@keyframes shift-bottom {
+    33% {
+        transform: rotateX(-90deg) translateZ(50px);
+    }
+
+    50% {
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+
+    60% {
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+
+    75% {
+        transform: rotateX(-90deg) translateZ(50px);
+    }
+}
+
+@keyframes shift-right {
+    33% {
+        transform: rotateY(90deg) translateZ(50px);
+    }
+
+    50% {
+        transform: rotateY(90deg) translateZ(100px);
+    }
+
+    60% {
+        transform: rotateY(90deg) translateZ(100px);
+    }
+
+    75% {
+        transform: rotateY(90deg) translateZ(50px);
+    }
+}
+
+@keyframes shift-left {
+    33% {
+        transform: rotateY(-90deg) translateZ(50px);
+    }
+
+    50% {
+        transform: rotateY(-90deg) translateZ(100px);
+    }
+
+    60% {
+        transform: rotateY(-90deg) translateZ(100px);
+    }
+
+    75% {
+        transform: rotateY(-90deg) translateZ(50px);
+    }
+}
+
+@keyframes shift-front {
+    33% {
+        transform: translateZ(50px);
+    }
+
+    50% {
+        transform: translateZ(100px);
+    }
+
+    60% {
+        transform: translateZ(100px);
+    }
+
+    75% {
+        transform: translateZ(50px);
+    }
+}
+
+@keyframes shift-back {
+    33% {
+        transform: rotateY(-180deg) translateZ(50px);
+    }
+
+    50% {
+        transform: rotateY(-180deg) translateZ(100px);
+    }
+
+    60% {
+        transform: rotateY(-180deg) translateZ(100px);
+    }
+
+    75% {
+        transform: rotateY(-180deg) translateZ(50px);
+    }
+}
+
+.button.x {
+    max-width: 320px;
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(24, 23, 23, 0.25);
+    gap: 0.75rem;
+    color: #ffffff;
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: all 0.6s ease;
+    text-decoration: none;
+    position: relative;
+    top: 55px;
+    left:93px;
+  }
+  
+  .button.x svg {
+    height: 24px;
+    width: 24px;
+    fill: #fff;
+    margin-right: 0.5rem;
+  }
+  
+  .button.x:hover {
+    transform: scale(1.02);
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button.x:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button.x:active {
+    transform: scale(0.98);
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 480px) {
+    .button.x {
+      max-width: 100%;
+    }
+  }
+  
